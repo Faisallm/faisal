@@ -1,0 +1,23 @@
+/* general style for the entire website */
+
+* {
+    /* the padding and border will be included in
+    the total width and height of an element */
+    box-sizing: border-box;
+    /* remove underlines from links */
+    text-decoration: none;
+    /* self-explanatory */
+    background: transparent;
+}
+
+body {
+    /* a variant of black */
+    background: rgb(30, 30, 30);
+    color: white;
+    /* any content that goes beyond its binding element,
+    hide it */
+    overflow: hidden;
+    /* any overflowing content in the vertical-y
+    direction, set it to scroll */
+    overflow-y: scroll;
+}
