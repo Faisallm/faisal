@@ -1,0 +1,20 @@
+#skills {
+    /* hide overflowing content */
+    overflow: hidden;
+    /* 100% viewing width */
+    width: 100vw;
+    /* 75 rem was used for navbar
+    and hero section */
+    max-width: 65rem;
+    display: flex;
+    /* because the default flex direction 
+    is horizontal */
+    flex-direction: column;
+    /* crossAxisAlignment */
+    align-items: center;
+    /* mainAxisAlignment */
+    justify-content: center;
+    text-align: center;
+    /* in order to center the skills section */
+    margin: 0 auto;
+}
