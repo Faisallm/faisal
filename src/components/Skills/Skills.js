@@ -13,7 +13,8 @@ const Skills = () => {
       <span className="skillDesc">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
       </span>
 
       <div className="skillBars">
@@ -43,6 +44,7 @@ const Skills = () => {
             <p>You can write text related to mobile app development.</p>
           </div>
         </div>
+
         
       </div>
     </section>
