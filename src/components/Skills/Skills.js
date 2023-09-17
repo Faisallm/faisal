@@ -44,8 +44,6 @@ const Skills = () => {
             <p>You can write text related to mobile app development.</p>
           </div>
         </div>
-
-        
       </div>
     </section>
   );

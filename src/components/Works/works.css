@@ -1,0 +1,64 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+    margin-bottom: 30px;
+}
+
+.worksImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex children can span unto
+    multiple lines */
+    flex-wrap: wrap;
+    /* if you are using a mobile device,
+    mobile responsiveness */
+    width: 100vw;
+    /* if you are using desktop version */
+    max-width: 65rem;
+}
+
+.worksImg {
+    /* protect aspect ratio of image */
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+
+.worksBtn {
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 585px) {
+    .worksImg {
+        /* changing height will automatically
+        change width because we have set
+        object-fit to cover to protect
+        the aspect ratio. */
+        height: 48vw;
+    }
+}
