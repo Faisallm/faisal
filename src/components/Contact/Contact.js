@@ -38,7 +38,7 @@ const Contact = () => {
 
         <form className="contactForm">
           <input type="text" className="name" placeholder="Your Name" />
-          <input type="email" name="email" placeholder="Your Email" />
+          <input type="email" className="email" placeholder="Your Email" />
           <textarea
             name="message"
             rows="5"
@@ -52,10 +52,10 @@ const Contact = () => {
         </button>
 
         <div className="links">
-            <img src={} alt="" className="link" />
-            <img src={} alt="" className="link" />
-            <img src={} alt="" className="link" />
-            <img src={} alt="" className="link" />
+            <img src={FacebookIcon} alt="Facebook" className="link" />
+            <img src={TwitterIcon} alt="Twitter" className="link" />
+            <img src={YoutubeIcon} alt="Youtube" className="link" />
+            <img src={InstagramIcon} alt="Instagram" className="link" />
         </div>
 
       </div>

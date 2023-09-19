@@ -24,6 +24,7 @@
 .clientImgs {
     margin: 1rem 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .clientImg {
@@ -36,4 +37,67 @@
 
 #clients {
     padding: 2rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* crossAxisAlignment */
+    align-items: center;
+    /* mainAxisAlignment */
+    justify-self: center;
+    /* 90% view width */
+    /* if the screen does not reach
+    60 rem, just ocuppy 90% screen width */
+    width: 90vw;
+    /* shouldnt exceed 60 rem */
+    max-width: 60rem;
+}
+
+.name,
+.email,
+.msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+
+.links {
+    /* default  */
+    display: flex;
+    /* flex children can wrap unto
+     multiple lines */
+    flex-wrap: wrap;
+    /* this did the trick */
+    justify-content: center;
+}
+
+.link {
+    /* so as to protect
+    aspect ratio of the image */
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
 }
