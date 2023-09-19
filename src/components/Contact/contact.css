@@ -25,11 +25,12 @@
     margin: 1rem 0;
     display: flex;
     flex-wrap: wrap;
+    /* max-width: 500px; */
 }
 
 .clientImg {
     object-fit: cover;
-    width: 253%;
+    width: 200px;
     min-width: 9rem;
     margin: auto;
     padding: 0.25rem;
@@ -64,6 +65,18 @@
 .name,
 .email,
 .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+textarea {
     font-size: medium;
     width: 100%;
     max-width: 40rem;
