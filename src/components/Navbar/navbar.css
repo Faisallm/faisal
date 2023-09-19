@@ -67,6 +67,13 @@
     border-bottom: 3px solid yellow;
 }
 
+.mobMenu {
+    /* hide the mobile menu */
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
 .navMenu {
     position: absolute;
     top: 4rem;
@@ -80,4 +87,23 @@
     min-width: 15rem;
     background: rgb(40, 40, 40);
     border-radius: 1rem;
+}
+
+.listItem {
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    color: white;
+    background: rgb(30, 30, 30);
+}
+
+@media screen and (max-width: 720px) {
+    .mobMenu {
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
 }
